@@ -1,0 +1,75 @@
+
+*{box-sizing: border-box;}
+
+div {
+    font-size: 12px;
+    text-align: justify;
+    padding: 10px;
+    /* margin: 2rem; */
+    max-width: 300px;
+    background-color: linen;
+    border-style: dotted;
+    border-color: teal;
+}
+
+/* .box {
+    font-size: 12px;
+    text-align: justify;
+    padding: 2rem;
+    margin-left: 200px;
+    position: relative;
+    background-color: linen;
+} */
+
+
+.sidebar {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+}
+
+.comm {
+    height: 50px;
+    font-size: 10px;
+    text-align: center;
+    padding: 0px 10px;
+    margin-left: 170px;
+    position: relative;
+    background-color: linen;
+    color: maroon;
+}
+
+.pins {
+    font-size: 10px;
+    text-align: left;
+    padding-left: 5px;
+    padding-top: 5px;
+    margin-left: 170px;
+    margin-top: 10px;
+    position: relative;
+    background-color: linen;
+    color: maroon;
+}
+
+.post {
+    font-size: 10px;
+    text-align: left;
+    padding-left: 5px;
+    padding-top: 5px;
+    margin-left: 170px;
+    margin-top: 10px;
+    position: relative;
+    background-color: linen;
+
+}
+
+
+.pins:hover {color:teal;}
+a {color: maroon; text-decoration: none;}
+a:hover {color: teal;}
